@@ -1,0 +1,28 @@
+{
+    "name": "globalpayredeban/magento2",
+    "description": "GlobalPay Redeban Magento 2 Integration.",
+    "require": {
+        "magento/magento-composer-installer": "^0.1.13",
+        "globalpayredeban/sdk-php": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Developer Team",
+            "email": "dev@globalpay.com.co"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.1.12",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GlobalPay\\Module\\": ""
+        }
+    }
+}
